@@ -6,7 +6,7 @@ threadsafe: true
 
 handlers:
 - url: /rcvr/receiver.html
-  static_files: receiver/index.html
-  upload: receiver/index.html
+  static_files: index.html
+  upload: index.html
   
   
