@@ -27,7 +27,7 @@ import java.util.Properties;
  */
 public class EmbeddedServer extends HttpServer {
 	private static final String LOG_TAG = "EmbeddedServer";
-	public static final int HTTP_PORT = 8080;
+	public static final int HTTP_PORT = 9080;
 	public static final String CURRENT_FILE = "current.file";
 	private static final int BUFFER_SIZE = 1024 * 500;
 
