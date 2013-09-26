@@ -89,7 +89,7 @@ public class FlingFrame extends JFrame implements ActionListener, BroadcastDisco
 	// https://www.gstatic.com/cv/receiver.html?${POST_DATA}
 	public static final String CHROMECAST = "ChromeCast";
 	// TODO Add your own app id here
-	private static final String APP_ID = "YOUR_APP_ID_HERE";
+	private static final String APP_ID = "e9e06037-da5e-45d3-8d2a-8eafb811edab";
 
 	private static final String HEADER_APPLICATION_URL = "Application-URL";
 	private static final String CHROME_CAST_MODEL_NAME = "Eureka Dongle";
