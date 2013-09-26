@@ -1,0 +1,12 @@
+application: juicetestapp
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /rcvr/receiver.html
+  static_files: receiver/index.html
+  upload: receiver/index.html
+  
+  
