@@ -1,0 +1,16 @@
+application: juicetestapp
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /rcvr/css/receiver.css
+  static_files: rcvr/css/receiver.css
+  upload: rcvr/css/receiver.css
+  
+- url: /rcvr/receiver.html
+  static_files: rcvr/receiver.html
+  upload: rcvr/receiver.html
+  
+  
