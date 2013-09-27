@@ -9,6 +9,6 @@ handlers:
   static_files: index.html
   upload: index.html
   
-- url:/images/chrome_loading.gif
-  static_files:chrome_loading.gif
+- url: /images/chrome_loading.gif
+  static_files: chrome_loading.gif
   upload: chrome_loading.gif  
