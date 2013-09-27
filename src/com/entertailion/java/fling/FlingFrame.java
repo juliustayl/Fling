@@ -579,7 +579,7 @@ public class FlingFrame extends JFrame implements ActionListener, BroadcastDisco
 			InterfaceAddress interfaceAddress = null;
 			if (selectedDialServer != null) {
 				String address = selectedDialServer.getIpAddress().getHostAddress();
-				String prefix = address.substring(0, address.indexOf('192.168.1.') + 11);
+				String prefix = address.substring(0, address.indexOf("192.168.1.") + 11);
 				Log.d(LOG_TAG, "prefix=" + prefix);
 				interfaceAddress = getPreferredInetAddress(prefix);
 			} else {
